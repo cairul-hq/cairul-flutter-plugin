@@ -1,4 +1,4 @@
-import { counts, list, option, selectors, stdout, value } from '@cairul/plugin-kit/runner';
+import { counts, list, option, selectors, stdout, value } from '@cairul/pdk/runner';
 
 function summarize(output) {
   const results = counts();
